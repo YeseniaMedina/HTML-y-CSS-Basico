@@ -1,0 +1,164 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.general{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: orange;
+    border: 20px  rgb(23, 35, 100) solid;
+    border-left: 0;
+    box-sizing: border-box;
+     
+    
+}
+
+.h1{
+    font-family: sans-serif;
+    color: aliceblue;
+    font-size: 11vh;
+    text-align: center;
+    
+    
+}
+
+.comillas{
+    color: orange;
+    font-size: 20vh;
+    line-height: 1.1;
+    
+
+}
+
+
+#CO{
+    color: rgb(23, 35, 100);
+   font-weight: 800;
+}
+
+
+
+
+#sign-in{
+   color: rgb(23, 35, 100); 
+}
+
+
+
+.h2{
+    color: rgb(23, 35, 100);
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    
+}
+
+.quote{
+    background-color: rgb(23, 35, 100);
+    height: 100%;
+    width: 40%;
+    margin-left: 30px;
+    
+
+}
+.form-page{
+    flex: 1;
+
+    
+}
+
+#form-details{
+    width: 100%;
+    justify-items: center;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2% 6%;
+    
+}
+
+input{
+    border: none;
+    padding: 5px;
+    padding-right: 70px;
+    padding-top: 12px;
+    
+}
+
+#have-account{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding-left: 20%;
+    
+    
+}
+
+.termss {
+    grid-column: span 2;
+    padding-top: 10px;
+}
+
+#Conditions{
+    color: rgb(23, 35, 100);
+    
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 20px;
+    
+
+}
+
+label{
+    color: rgb(23, 35, 100);
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+#createaccount{
+
+    
+    font-size: 15px;
+    font-weight: 600;
+    padding: 3%;
+    background-color: rgb(23, 35, 100);
+    color: aliceblue;
+    border: none;
+}
+
+span{
+    color: aliceblue; 
+}
+
+button{
+    color: rgb(23, 35, 100);
+    padding: 3%;
+    margin-top: 3%;
+    border: none;
+}
+.copyright{
+    padding-top: 45%
+}
+
+
+
+
+
+
+
+
+
+
+
